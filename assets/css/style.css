@@ -309,6 +309,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #333333;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+  text-align: justify;
 }
 
 .about_person_area .person_details .person_information {

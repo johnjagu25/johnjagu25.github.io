@@ -1,3 +1,6 @@
+.main_container{
+    overflow-x:hidden;
+}
 @media (max-width: 1199px){
     .about_person_area .person_img {
         max-width: none;
@@ -6,6 +9,7 @@
     }
     .about_person_area .person_details {
         margin-left: 0px;
+        padding:10px !important;
     }
     .social_icon li {
         margin-right: 4px;
@@ -36,9 +40,9 @@
     }
 }
 @media (max-width: 991px){
-    .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
+    /* .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
         margin-right: 18px;
-    }
+    } */
     .about_person_area .person_img {
         text-align: center;
     }
@@ -95,6 +99,9 @@
     }
 }
 @media (max-width: 767px){
+    .name{
+        font-size:30px !important;
+    }
     .navbar-toggle {
         margin-top: 23px;
         margin-bottom: 23px;
@@ -106,7 +113,7 @@
     .navbar-toggle span{
         background: #333333 !important;
     }
-    .header_area .navbar.navbar-default .navbar-header .navbar-brand {
+    /* .header_area .navbar.navbar-default .navbar-header .navbar-brand {
         line-height: 78px;
     }
     .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li a {
@@ -116,7 +123,7 @@
     }
     .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:last-child a {
         border: none;
-    }
+    } */
     .person_details .social_icon li {
         margin-bottom: 8px;
     }
@@ -139,6 +146,9 @@
     }
 }
 @media (max-width: 600px){
+    .personal-para{
+        max-width: 320px !important;
+    }
     .pad{
         padding-left: 30px;
         padding-right: 30px;
@@ -164,7 +174,7 @@
     }
     .education_area .education_inner_area {
         overflow: visible;
-        max-width: 250px;
+        max-width: 300px !important;
         margin: auto;
     }
     .education_area .education_inner_area .education_item {

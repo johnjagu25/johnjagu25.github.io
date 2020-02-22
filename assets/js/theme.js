@@ -5,7 +5,9 @@
 //     /*  Menu scroll js
 //     /*----------------------------------------------------*/
     $(document).ready(function(){
+        if($('.header_area').length){
         var nav_offset_top = $('.header_area').offset().top;
+        }
         function stickyHeader() {
             if ($('.header_area').length) {
                 var strickyScrollPos = nav_offset_top;
@@ -19,6 +21,7 @@
                 }
             }
         }
+    
         
         // instance of fuction while Window Scroll event
         $(window).on('scroll', function () {	
@@ -118,14 +121,6 @@
                 });
             
             }
-        
-            
-    //    
-    //        $('.header_area .nav.navbar-nav li').click(function(e) {
-    //            e.preventDefault(); //prevent the link from being followed
-    //            $('.header_area .nav.navbar-nav li').removeClass('active');
-    //            $(this).addClass('active');
-    //        });
         
         
         $('.header_area .nav.navbar-nav li a[href^="#"]:not([href="#"])').on('click', function(event) {
