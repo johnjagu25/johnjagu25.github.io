@@ -37,7 +37,7 @@ body.light_bg {
 }
 
 body.dark_bg {
-  background: url(../img/Pattern_Drak.png) repeat scroll center center;
+  /* background: url(../img/color.jpg) repeat scroll center center; */
   background-size: contain;
 }
 
@@ -253,9 +253,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 ============================================================================================ */
 .about_person_area {
   background: #fff;
-  margin-top: 70px;
-  padding-top: 70px;
-  padding-bottom: 60px;
+  /* margin-top: 70px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
    .person_img{
         height: 200px !important;

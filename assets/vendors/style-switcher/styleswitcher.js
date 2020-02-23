@@ -51,7 +51,7 @@ function readCookie(name) {
 window.onload = function(e) {
   var cookie = readCookie("style");
   var title = cookie ? cookie : getPreferredStyleSheet();
-  setActiveStyleSheet(title);
+  setActiveStyleSheet('past');
 }
 
 window.onunload = function(e) {
@@ -61,4 +61,4 @@ window.onunload = function(e) {
 
 var cookie = readCookie("style");
 var title = cookie ? cookie : getPreferredStyleSheet();
-setActiveStyleSheet(title);
+setActiveStyleSheet('past');

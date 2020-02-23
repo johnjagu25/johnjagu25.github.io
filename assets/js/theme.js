@@ -5,6 +5,7 @@
 //     /*  Menu scroll js
 //     /*----------------------------------------------------*/
     $(document).ready(function(){
+        // $("body").css("background","url(../assets/img/color.jpg) repeat scroll center center")
         if($('.header_area').length){
         var nav_offset_top = $('.header_area').offset().top;
         }

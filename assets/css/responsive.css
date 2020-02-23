@@ -1,7 +1,11 @@
 .main_container{
     overflow-x:hidden;
 }
+.pinned{
+    display: none;
+}
 @media (max-width: 1199px){
+
     .about_person_area .person_img {
         max-width: none;
         width: 100%;
@@ -198,6 +202,16 @@
     .portfolio_area .porfolio_menu .causes_filter li {
         margin-right: 18px;
     }
+    .pinned{
+        display:inline;  
+        position: absolute;
+        right: auto;
+        left: 48%;
+        top: -12px;
+        transform: rotate(45deg);
+        color: #ffff00f2;
+        font-size: 20px;
+      }
 }
 @media (max-width: 500px){
     .pad{
