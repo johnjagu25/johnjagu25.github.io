@@ -3,6 +3,11 @@
   margin-right: 8.33333333%;
 }
 
+.download-btn{
+background: #27a79a;
+}
+
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 ul {
@@ -257,6 +262,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
    .person_img{
         height: 200px !important;
     width: 200px !important;
@@ -437,78 +443,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/* End About Person area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Download BTN area css
-============================================================================================ */
-.download_btn {
-  display: block;
-  background: #fec608;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 20px;
-  color: #222222;
-  font-size: 18px;
-  font-family: "Yellowtail", cursive;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  padding: 0 10px;
-}
-
-.download_btn span {
-  display: inline-block;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  height: 100%;
-  transition: all 400ms linear 0s;
-}
-/* 
-.download_btn:before {
-  content: "\f019";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  line-height: 40px;
-  font-size: 18px;
-  color: #222222;
-  top: -100%;
-  left: 0px;
-  font-family: "Font Awesome 5 Free";
-  transition: all 200ms ease-in;
-} */
-/* 
-.download_btn:hover span {
-  -webkit-transform: translateY(300%);
-  -ms-transform: translateY(300%);
-  transform: translateY(300%);
-}
-
-.download_btn:hover:before {
-  top: 0px;
-}
-
-.contact_btn {
-  max-width: 140px;
-  display: block;
-  line-height: 40px;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  box-shadow: none !important;
-  outline: none !important;
-  border: none;
-  border-radius: 0px;
-  background: #fec608;
-  width: 100%;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
-} */
-
 .contact_btn span {
   display: inline-block;
   width: 100%;
@@ -551,12 +485,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   top: 0px;
 }
 
-/* End Download BTN area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Skill Area css
-============================================================================================ */
 .myskill_area .skill_text {
   padding-bottom: 28px;
 }
@@ -614,10 +542,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
 }
 
-/* End Skill Area css
-============================================================================================ */
-/* Education Area css
-============================================================================================ */
+
 .education_area {
   padding-bottom: 60px;
 }
